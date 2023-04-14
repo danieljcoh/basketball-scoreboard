@@ -1,0 +1,65 @@
+@font-face {
+  font-family: 'scoreboard-font';
+  src: url('scoreboard-font') format('truetype');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0C2654;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+    .container h3 {
+        color: white;
+        font-size: 50px;
+        margin-bottom: 0;
+        padding-bottom: 0;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+.scoreboard-box {
+    /* font-family: 'Silkscreen', cursive; */
+    font-family: "scoreboard-font", "Silkscreen", cursive;
+    width: 150px;
+    background-color: black;
+    color: #F94F6D;
+    text-align: center;
+    font-size: 60px;
+    margin: auto;
+    padding: auto;
+}
+
+#home-score {
+    text-align: center;
+}
+
+#guest-score {
+    text-align: center;
+}
+
+.btn-section {
+    padding: 0 10px;
+    margin: 0 10px;
+}
+
+button {
+    background: none;
+    font-family: "scoreboard-font", "Silkscreen", cursive;
+    color: #F0F0F0;
+    border: white 1px solid;
+    border-radius: 6px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+}
+
